@@ -1,7 +1,8 @@
-print("Hello from app.py!")
+print("Hello, world!")
 
-def greet(name):
-    return f"Hello, {name}!"
-result = greet("Alice")
+def greet():
+    return f"Hello, class!"
+
+result = greet()
 
 print(result)
